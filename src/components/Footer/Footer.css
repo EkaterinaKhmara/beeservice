@@ -1,0 +1,271 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background: #172130;
+}
+
+.footer .bottom {
+    background: #0f141c;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #5a5a5a;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.footer .allInfo {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer .allInfo .allInfo__footerMenu,
+.footer .allInfo .allInfo__contTels,
+.footer .allInfo .allInfo__addressTime {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+    padding: 0 0 0 70px;
+}
+
+.footer .allInfo .allInfo__footerMenu .box__menu ul li {
+    list-style: none;
+}
+
+.footer .allInfo .allInfo__footerMenu .box__menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .allInfo .allInfo__footerMenu .box__menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .allInfo .allInfo__footerMenu .box__menu ul li a:hover {
+    color: #ffb000;
+}
+
+.footer .allInfo .allInfo__footerMenu .box__privacy a {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+}
+
+.footer .allInfo .allInfo__contTels .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .allInfo .allInfo__contTels .cont img {
+    width: 6%;
+}
+
+.footer .allInfo .allInfo__addressTime {
+    gap: 20px;
+}
+
+.footer .allInfo .allInfo__contTels .btnRecall {
+    width: 85%;
+    padding: 5px;
+    background: #ffb000;
+    border: 1px solid #ff9e00;
+    border-radius: 5px;
+    color: #061c3c;
+    font-weight: 700;
+    box-shadow: 1px 1px 4px #505050;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .allInfo .allInfo__contTels .btnRecall img {
+    width: 6%;
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    3% {
+        transform: rotate(2deg);
+    }
+
+    6% {
+        transform: rotate(5deg);
+    }
+
+    9% {
+        transform: rotate(8deg);
+    }
+
+    12% {
+        transform: rotate(11deg);
+    }
+
+    15% {
+        transform: rotate(14deg);
+    }
+
+    18% {
+        transform: rotate(17deg);
+    }
+
+    21% {
+        transform: rotate(20deg);
+    }
+
+    24% {
+        transform: rotate(22deg);
+    }
+
+    27% {
+        transform: rotate(24deg);
+    }
+
+    30% {
+        transform: rotate(26deg);
+    }
+
+    33% {
+        transform: rotate(28deg);
+    }
+
+    36% {
+        transform: rotate(30deg);
+    }
+
+    39% {
+        transform: rotate(32deg);
+    }
+
+    42% {
+        transform: rotate(34deg);
+    }
+
+    45% {
+        transform: rotate(36deg);
+    }
+
+    48% {
+        transform: rotate(34deg);
+    }
+
+    51% {
+        transform: rotate(32deg);
+    }
+
+    54% {
+        transform: rotate(30deg);
+    }
+
+    57% {
+        transform: rotate(28deg);
+    }
+
+    60% {
+        transform: rotate(26deg);
+    }
+
+    63% {
+        transform: rotate(24deg);
+    }
+
+    66% {
+        transform: rotate(22deg);
+    }
+
+    69% {
+        transform: rotate(20deg);
+    }
+
+    72% {
+        transform: rotate(18deg);
+    }
+
+    75% {
+        transform: rotate(16deg);
+    }
+
+    78% {
+        transform: rotate(14deg);
+    }
+
+    81% {
+        transform: rotate(12deg);
+    }
+
+    84% {
+        transform: rotate(10deg);
+    }
+
+    87% {
+        transform: rotate(8deg);
+    }
+
+    90% {
+        transform: rotate(6deg);
+    }
+
+    93% {
+        transform: rotate(4deg);
+    }
+
+    96% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .footer .allInfo {
+        flex-direction: column;
+    }
+
+    .footer .allInfo .allInfo__footerMenu,
+    .footer .allInfo .allInfo__contTels,
+    .footer .allInfo .allInfo__addressTime {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer .allInfo .allInfo__contTels .cont {
+        align-items: center;
+    }
+
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        margin: 0 auto;
+    }
+
+    .addressSpan,
+    .scheduleSpan {
+        align-items: center;
+    }
+
+
+}

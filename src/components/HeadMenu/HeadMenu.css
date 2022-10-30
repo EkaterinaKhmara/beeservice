@@ -1,0 +1,230 @@
+.headMenu {
+    width: 100%;
+    height: auto;
+    background: #d9d9d9;
+}
+
+.headMenu .headMenu__box {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headMenu .headMenu__box .box__menu {
+    width: 60%;
+}
+
+.headMenu .headMenu__box .box__menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.headMenu .headMenu__box .box__menu ul li {
+    width: 30%;
+    padding: 20px 0;
+    transition: 0.3s linear;
+}
+
+.headMenu .headMenu__box .box__menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: 0.3s linear;
+    font-weight: 700;
+}
+
+.headMenu .headMenu__box .box__menu ul li:hover {
+    background-color: #172130;
+}
+
+.headMenu .headMenu__box .box__menu ul li:hover a {
+    color: white;
+}
+
+
+.headMenu .headMenu__box .box__Binotel {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.headMenu .headMenu__box .box__Binotel .box__recall {
+    width: 55%;
+    padding: 6px;
+    background: #ffb000;
+    border: 1px solid #ff9e00;
+    border-radius: 5px;
+    color: #061c3c;
+    font-weight: 700;
+    box-shadow: 1px 1px 4px #505050;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headMenu .headMenu__box .box__Binotel .box__recall img {
+    width: 7%;
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    3% {
+        transform: rotate(2deg);
+    }
+
+    6% {
+        transform: rotate(5deg);
+    }
+
+    9% {
+        transform: rotate(8deg);
+    }
+
+    12% {
+        transform: rotate(11deg);
+    }
+
+    15% {
+        transform: rotate(14deg);
+    }
+
+    18% {
+        transform: rotate(17deg);
+    }
+
+    21% {
+        transform: rotate(20deg);
+    }
+
+    24% {
+        transform: rotate(22deg);
+    }
+
+    27% {
+        transform: rotate(24deg);
+    }
+
+    30% {
+        transform: rotate(26deg);
+    }
+
+    33% {
+        transform: rotate(28deg);
+    }
+
+    36% {
+        transform: rotate(30deg);
+    }
+
+    39% {
+        transform: rotate(32deg);
+    }
+
+    42% {
+        transform: rotate(34deg);
+    }
+
+    45% {
+        transform: rotate(36deg);
+    }
+
+    48% {
+        transform: rotate(34deg);
+    }
+
+    51% {
+        transform: rotate(32deg);
+    }
+
+    54% {
+        transform: rotate(30deg);
+    }
+
+    57% {
+        transform: rotate(28deg);
+    }
+
+    60% {
+        transform: rotate(26deg);
+    }
+
+    63% {
+        transform: rotate(24deg);
+    }
+
+    66% {
+        transform: rotate(22deg);
+    }
+
+    69% {
+        transform: rotate(20deg);
+    }
+
+    72% {
+        transform: rotate(18deg);
+    }
+
+    75% {
+        transform: rotate(16deg);
+    }
+
+    78% {
+        transform: rotate(14deg);
+    }
+
+    81% {
+        transform: rotate(12deg);
+    }
+
+    84% {
+        transform: rotate(10deg);
+    }
+
+    87% {
+        transform: rotate(8deg);
+    }
+
+    90% {
+        transform: rotate(6deg);
+    }
+
+    93% {
+        transform: rotate(4deg);
+    }
+
+    96% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .headMenu .headMenu__box .box__menu {
+        display: none;
+    }
+
+
+}

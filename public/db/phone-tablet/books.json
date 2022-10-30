@@ -1,0 +1,67 @@
+[
+    {
+        "name_book": "Діагностика з подальшим ремонтом",
+        "guarantee_book": "",
+        "price_book": "безкоштовно"
+    },
+    {
+        "name_book": "Діагностика несправності. Без ремонту",
+        "guarantee_book": "",
+        "price_book": "300 грн."
+    },
+    {
+        "name_book": "Перепрошивка, встановлення потрібної мови",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 150 грн."
+    },    
+    {
+        "name_book": "Відновлення прошивки",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 250 грн."
+    },    
+    {
+        "name_book": "Заміна дисплея",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 950 грн."
+    },    
+    {
+        "name_book": "Заміна сенсора (Touchscreen)",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 800 грн."
+    },    
+    {
+        "name_book": "Заміна кнопки увімкнення",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 150 грн."
+    },    
+    {
+        "name_book": "Заміна кнопки керування гучністю",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 150 грн."
+    },    
+    {
+        "name_book": "Заміна поліфонічного динаміка",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 150 грн."
+    },    
+    {
+        "name_book": "Заміна акумулятора",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 150 грн."
+    },    
+    {
+        "name_book": "Заміна роз'єму зарядки USB роз'єми",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 280 грн."
+    },    
+    {
+        "name_book": "Заміна аудіо роз'єму (навушників)",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 250 грн."
+    },    
+    {
+        "name_book": "Відновлення материнської плати",
+        "guarantee_book": "3 місяці",
+        "price_book": "від 300 грн."
+    }
+]

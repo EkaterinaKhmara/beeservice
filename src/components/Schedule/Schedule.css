@@ -1,0 +1,9 @@
+.scheduleSpan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.scheduleSpan p.name{
+    color: #ffb000;
+}

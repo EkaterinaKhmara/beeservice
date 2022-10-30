@@ -1,0 +1,112 @@
+[
+    {
+        "name_tablet": "Діагностика з подальшим ремонтом",
+        "guarantee_tablet": "",
+        "price_tablet": "безкоштовно"
+    },
+    {
+        "name_tablet": "Діагностика несправності. Без ремонту",
+        "guarantee_tablet": "",
+        "price_tablet": "300 грн."
+    },
+    {
+        "name_tablet": "Перепрошивка",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 450 грн."
+    },    
+    {
+        "name_tablet": "Відновлення прошивки",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 450 грн."
+    },    
+    {
+        "name_tablet": "Заміна дисплея",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 700 грн."
+    },    
+    {
+        "name_tablet": "Заміна сенсора (Touchscreen)",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 700 грн."
+    },    
+    {
+        "name_tablet": "Заміна роз'єму зарядки, USB роз'єму",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 450 грн."
+    },    
+    {
+        "name_tablet": "Заміна аудіо роз'єму (навушників)",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна акумулятора",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 550 грн."
+    },    
+    {
+        "name_tablet": "Заміна кнопки увімкнення",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна кнопки керування гучністю",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна вібромотора",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна поліфонічного динаміка",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна голосового динаміка",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна мікрофону",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 250 грн."
+    },    
+    {
+        "name_tablet": "Заміна основної камери",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 300 грн."
+    },    
+    {
+        "name_tablet": "Заміна фронтальної камери",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 300 грн."
+    },    
+    {
+        "name_tablet": "Заміна датчика наближення та освітленості",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 350 грн."
+    },    
+    {
+        "name_tablet": "Заміна чи ремонт Wi-Fi модуля",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 350 грн."
+    },    
+    {
+        "name_tablet": "Заміна чи ремонт GSM модуля",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 350 грн."
+    },    
+    {
+        "name_tablet": "Відновлення материнської плати",
+        "guarantee_tablet": "3 місяці",
+        "price_tablet": "від 450 грн."
+    },    
+    {
+        "name_tablet": "Поклейка захисного скла, плівки (без вартості скла)",
+        "guarantee_tablet": "7 днів",
+        "price_tablet": "120 грн."
+    }
+]

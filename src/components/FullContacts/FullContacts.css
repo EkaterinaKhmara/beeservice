@@ -1,0 +1,135 @@
+.box {
+    width: 100%;
+    height: auto;
+    padding: 90px 0 65px;
+    background-image: url('/public/img/other/bgConts.webp');
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+}
+
+.box .box__main {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    color: white;
+}
+
+.box .box__main .main__block {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box .box__main .nameText {
+    border-bottom: 2px solid #ececec;
+    color: #f3f3f3;
+}
+
+.box .box__main .main__block .block__cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 60px;
+    line-height: 1.7;
+}
+
+.box .box__main .main__block .block__cont .addressCont, .box .box__main .main__block .block__cont .contactsCont, .box .box__main .main__block .block__cont .scheduleCont {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .box__main .main__block .block__cont .addressCont .email {
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box .box__main .main__block .block__cont .addressCont .email a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box .box__main .main__block .block__cont .addressCont .email a:hover{
+    color: #ffb000;
+}
+
+.box .box__main .main__block .block__cont .addressCont .email .mail {
+    color: white;
+    font-size: 25px;
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia {
+    display: flex;
+    gap: 25px; 
+    margin: 20px 0 0;
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia p {
+    font-weight: 700;
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia a {
+    text-decoration: none;
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia .media {
+    color: white;
+    font-size: 30px;
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia .media.insta:hover {
+    color: rgb(206, 0, 120);
+}
+
+.box .box__main .main__block .block__cont .scheduleCont .socialMedia .media.fb:hover {
+    color: rgb(122, 164, 255);
+}
+
+.box .box__main .main__block .block__cont .cont__cont, .box__main .main__block .block__cont .cont__sched {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box .box__main .main__block .block__cont .pText {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.box .box__main .main__block .block__cont .cont__cont img {
+    width: 15%;
+}
+
+.box .box__main .textCont {
+    margin: 50px;
+    font-size: 20px;
+}
+
+
+.box .box__main .block__map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.box .box__main .block__map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* .myIframe {
+    max-width: 1100px;
+    height: 450px; 
+    border: 0;
+} */

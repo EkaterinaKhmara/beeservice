@@ -1,0 +1,57 @@
+[
+    {
+        "name_navi": "Діагностика з подальшим ремонтом",
+        "guarantee_navi": "",
+        "price_navi": "безкоштовно"
+    },
+    {
+        "name_navi": "Діагностика несправності. Без ремонту",
+        "guarantee_navi": "",
+        "price_navi": "300 грн."
+    },    
+    {
+        "name_navi": "Заміна батареї (АКБ)",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 400 грн."
+    },    
+    {
+        "name_navi": "Заміна дисплея",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 450 грн."
+    },    
+    {
+        "name_navi": "Заміна роз'єму зарядного",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 350 грн."
+    },    
+    {
+        "name_navi": "Заміна сенсора",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 450 грн."
+    },    
+    {
+        "name_navi": "Заміна шлейфу",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 400 грн."
+    },    
+    {
+        "name_navi": "Перепрошивка",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 350 грн."
+    },    
+    {
+        "name_navi": "Встановлення та оновлення карт",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 350 грн."
+    },    
+    {
+        "name_navi": "Ремонт кнопки включення",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 300 грн."
+    },    
+    {
+        "name_navi": "Ремонт GPS які не бачать супутники",
+        "guarantee_navi": "3 місяці",
+        "price_navi": "від 550 грн."
+    }
+]

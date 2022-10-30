@@ -1,0 +1,97 @@
+[
+    {
+        "name_laptop": "Діагностика з подальшим ремонтом",
+        "guarantee_laptop": "",
+        "price_laptop": "безкоштовно"
+    },
+    {
+        "name_laptop": "Діагностика несправності. Без ремонту",
+        "guarantee_laptop": "",
+        "price_laptop": "300 грн."
+    },
+    {
+        "name_laptop": "Чистка ігрових ноутбуків",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 550 грн."
+    },
+    {
+        "name_laptop": "Чистка ноутбуків різних марок",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 450 грн."
+    },
+    {
+        "name_laptop": "Заміна матриці ноутбука",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 1100 грн."
+    },
+    {
+        "name_laptop": "Заміна клавіатури на ноутбуці",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від від 450 грн."
+    },
+    {
+        "name_laptop": "Заміна або ремонт жорсткого диска(HDD, SSD)",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "уточнюйте у менеджера**"
+    },
+    {
+        "name_laptop": "Заміна гнізда зарядки, навушників, USB у ноутбуці",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 550 грн."
+    },
+    {
+        "name_laptop": "Чищення охолоджувальної системи із заміною термопасти, термопрокладок",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "450 грн."
+    },
+    {
+        "name_laptop": "Заміна coolera (вентилятора)",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 550 грн."
+    },
+    {
+        "name_laptop": "Заміна DVD приводу",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 100 грн."
+    },
+    {
+        "name_laptop": "Заміна батареї (акумулятора)",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 1200 грн."
+    },
+    {
+        "name_laptop": "Заміна відеокарти (відеоконтролера)",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 1500 грн."
+    },
+    {
+        "name_laptop": "Заміна контролера 'південний міст', 'північний міст', 'мультиконтролер'",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 1500 грн."
+    },
+    {
+        "name_laptop": "Ремонт корпусу, відновлення тріщин, зламаних кріплень",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 550 грн."
+    },
+    {
+        "name_laptop": "Ремонт материнської плати",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 750 грн."
+    },
+    {
+        "name_laptop": "Відновлення після потрапляння вологи",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 950 грн."
+    },
+    {
+        "name_laptop": "Ремонт блоку живлення",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 250 грн."
+    },
+    {
+        "name_laptop": "Лазерне гравіювання клавіатури",
+        "guarantee_laptop": "3 місяці",
+        "price_laptop": "від 250 грн."
+    }
+]

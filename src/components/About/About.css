@@ -1,0 +1,75 @@
+.block {
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+    background-image: url('/public/img/other/bgAbout.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.block .block__text {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block .block__text .nameText {
+    border-bottom: 2px solid #172130;
+    color: #172130;
+}
+
+.block .block__text span {
+    max-width: 1140px;
+    text-align: left;
+    display: inline;
+    background-color: #172130ad;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 12px;
+    line-height: 1.7;
+    padding: 10px 15px;
+}
+
+.block .block__text span b {
+    color: #ffb000;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .block {
+        padding: 60px 10px;
+    }
+
+    .block .block__text .nameText,
+    .containerBox .main .nameText,
+    .servBox .main .nameText,
+    .box .box__main .nameText {
+        max-width: 480px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .block .block__text {
+        max-width: 480px;
+    }
+
+    .block .block__text span {
+        max-width: 480px;
+        padding: 8px;
+        text-align: justify;
+    }
+
+
+
+}

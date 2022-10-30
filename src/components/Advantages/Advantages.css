@@ -1,0 +1,119 @@
+.containerBox {
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+    background: #ebebeb;
+}
+
+.containerBox .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBox .main .nameText {
+    border-bottom: 2px solid #172130;
+    color: #172130;
+}
+
+.containerBox .main .main__block {
+    max-width: 1140px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerBox .main .main__block .block__one,
+.containerBox .main .main__block .block__two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.containerBox .main .main__block .block__one .firstAdvant,
+.containerBox .main .main__block .block__one .secondAdvant,
+.containerBox .main .main__block .block__two .thirdAdvant,
+.containerBox .main .main__block .block__two .fourthAdvant {
+    width: 100%;
+    padding: 35px;
+    box-shadow: 0 0 15px #7e7e7e;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background: white;
+}
+
+.containerBox .main .main__block .block__one .firstAdvant, 
+.containerBox .main .main__block .block__two .thirdAdvant {
+    margin: 0 35px 0 0;
+}
+
+.containerBox .main .main__block .block__one .secondAdvant,
+.containerBox .main .main__block .block__two .fourthAdvant {
+    margin: 0 0 0 35px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .containerBox {
+        padding: 60px 10px;
+    }
+
+    .containerBox .main .nameText {
+        max-width: 480px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .containerBox .main .main__block {
+        margin: 30px;
+    }
+
+    .containerBox .main .main__block .block__one,
+    .containerBox .main .main__block .block__two {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .containerBox .main .main__block .block__one .firstAdvant,
+    .containerBox .main .main__block .block__two .thirdAdvant {
+        margin-bottom: 20px;
+        margin-right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .containerBox .main .main__block .block__one .secondAdvant,
+    .containerBox .main .main__block .block__two .fourthAdvant {
+        margin-bottom: 20px;
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+
+    .servBox .main .main__block .block__box {
+        flex-direction: column;
+    }
+
+
+
+}

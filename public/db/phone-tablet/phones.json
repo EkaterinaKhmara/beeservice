@@ -1,0 +1,87 @@
+[
+    {
+        "name_phone": "Діагностика з подальшим ремонтом",
+        "guarantee_phone": "",
+        "price_phone": "безкоштовно"
+    },
+    {
+        "name_phone": "Діагностика несправності. Без ремонту",
+        "guarantee_phone": "",
+        "price_phone": "300 грн."
+    },
+    {
+        "name_phone": "Прошивка телефону",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "450 грн."
+    },    
+    {
+        "name_phone": "Розблокування (від пароля, коду, графічного ключа, облікового запису Google)",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 500 грн."
+    },    
+    {
+        "name_phone": "Заміна дисплея",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 1000 грн."
+    },    
+    {
+        "name_phone": "Заміна кнопки увімкнення",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 280 грн."
+    },    
+    {
+        "name_phone": "Заміна кнопки керування гучністю",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 280 грн."
+    },    
+    {
+        "name_phone": "Заміна вібромотора",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 280 грн."
+    },    
+    {
+        "name_phone": "Заміна поліфонічного динаміка",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 350 грн."
+    },    
+    {
+        "name_phone": "Заміна голосового динаміка",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 280 грн."
+    },    
+    {
+        "name_phone": "Заміна мікрофону",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 350 грн."
+    },    
+    {
+        "name_phone": "Заміна акумулятора",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 450 грн."
+    },    
+    {
+        "name_phone": "Заміна роз'єму зарядки, USB роз'єму, аудіо роз'єму",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 350 грн."
+    },    
+    {
+        "name_phone": "Заміна основної камери",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 400 грн."
+    },    
+    {
+        "name_phone": "Заміна фронтальної камери",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 400 грн."
+    },    
+    {
+        "name_phone": "Ремонт материнської плати",
+        "guarantee_phone": "3 місяці",
+        "price_phone": "від 450 грн."
+    },    
+    {
+        "name_phone": "Поклейка захисного скла, плівки (без вартості скла)",
+        "guarantee_phone": "7 днів",
+        "price_phone": "100 грн."
+    }
+]

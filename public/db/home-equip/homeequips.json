@@ -1,0 +1,62 @@
+[
+    {
+        "name_homeequip": "Діагностика з подальшим ремонтом",
+        "guarantee_homeequip": "",
+        "price_homeequip": "безкоштовно"
+    },
+    {
+        "name_homeequip": "Діагностика несправності. Без ремонту",
+        "guarantee_homeequip": "",
+        "price_homeequip": "300 грн."
+    },
+    {
+        "name_homeequip": "Ремонт мікрохвильова піч",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 500 грн."
+    },
+    {
+        "name_homeequip": "Ремонт праски",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 350 грн."
+    },
+    {
+        "name_homeequip": "Ремонт електрочайника",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 300 грн."
+    },
+    {
+        "name_homeequip": "Ремонт блендера",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 400 грн."
+    },
+    {
+        "name_homeequip": "Ремонт кавомолки",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 300 грн."
+    },
+    {
+        "name_homeequip": "Ремонт пилососу",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 400 грн."
+    },
+    {
+        "name_homeequip": "Ремонт робота пилососа",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "800 грн."
+    },
+    {
+        "name_homeequip": "Ремонт міксера",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 400 грн."
+    },
+    {
+        "name_homeequip": "Ремонт м'ясорубки",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 450 грн."
+    },    
+    {
+        "name_homeequip": "Ремонт мультиварки",
+        "guarantee_homeequip": "3 місяці",
+        "price_homeequip": "від 350 грн."
+    }
+]

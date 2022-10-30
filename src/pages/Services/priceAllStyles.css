@@ -1,0 +1,115 @@
+.infoBox {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBox .Carousel,
+.infoBox .text {
+    width: 50%;
+    display: flex;
+}
+
+.infoBox .text {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.infoBox .Carousel .pic-block {
+    width: 100%;
+    height: auto;
+}
+
+.prodList {
+    margin: 30px 0 110px;
+}
+
+.nameTable,
+.prodTable {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 4px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prodTable:nth-child(odd) {
+    background: #fff0ce;
+}
+
+.prodTable:nth-child(even) {
+    background: #fbfbfb;
+}
+
+.nameTable {
+    justify-content: space-between;
+    background: #ffb000;
+}
+
+.nameTable p {
+    margin: 0;
+}
+
+.nameTitle {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nameTitle .topicName {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px;
+}
+
+.prodList .name {
+    width: 60%;
+    text-align: left;
+}
+
+.prodList .guarantee {
+    width: 10%;
+    text-align: right;
+}
+
+.prodList .price {
+    width: 20%;
+    text-align: right;
+}
+
+.prodList .text {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.prodList .name_p {
+    width: 38%;
+    text-align: left;
+}
+
+.prodList .problem_p {
+    width: 40%;
+    text-align: left;
+}
+
+.prodList .guarantee_p {
+    width: 10%;
+}
+
+.prodList .price_p {
+    width: 10%;
+    text-align: right;
+}

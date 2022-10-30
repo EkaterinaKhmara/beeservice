@@ -1,0 +1,101 @@
+.servBox {
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+}
+
+.servBox .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.servBox .main .nameText {
+    border-bottom: 2px solid #172130;
+    color: #172130;
+}
+
+.servBox .main .main__block {
+    max-width: 1170px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servBox .main .main__block .block__box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.servBox .main .main__block .block__box .box_serv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.servBox .main .main__block .block__box .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: #ffe7b3;
+    border: 1px solid #ffc7b6;
+}
+
+.servBox .main .main__block .block__box .details {
+    width: 100%;
+    text-align: left;
+}
+
+.servBox .main .main__block .block__box .link {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.servBox .main .main__block .block__box .link .arrow {
+    transform: translate(0px);
+    transition: 500ms;
+}
+
+.servBox .main .main__block .block__box .link a{
+    margin-right: 15px;
+}
+
+.servBox .main .main__block .block__box .link a,
+.servBox .main .main__block .block__box .link .arrow {
+    color: #172130;
+}
+
+.servBox .main .main__block .block__box .link:hover a {
+    text-decoration: none;
+}
+
+.servBox .main .main__block .block__box .link:hover .arrow {
+    transform: translate(10px);
+    color: #245cb1;
+}
+
+.servBox .main .main__block h3 {
+    padding: 10px 20px;
+    background: #f73a00;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 0;
+}

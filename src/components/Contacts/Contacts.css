@@ -1,0 +1,14 @@
+.img_tel {
+    display: flex;
+    align-items: center;
+}
+
+.img_tel img {
+    width: 10%;
+    margin: 0px 10px 0 0;
+}
+
+.img_tel a {
+    text-decoration: none;
+    color: white;
+}

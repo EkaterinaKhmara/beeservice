@@ -1,0 +1,127 @@
+[
+    {
+        "name_computer": "Діагностика з подальшим ремонтом",
+        "guarantee_computer": "",
+        "price_computer": "безкоштовно"
+    },
+    {
+        "name_computer": "Діагностика несправності. Без ремонту",
+        "guarantee_computer": "",
+        "price_computer": "300 грн."
+    },
+    {
+        "name_computer": "Відновлення BIOS",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 500 грн."
+    },
+    {
+        "name_computer": "Перепрошивка BIOS",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 250 грн."
+    },
+    {
+        "name_computer": "Апгрейд ПК (не включаючи вартості запчастин)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Відновлення битих секторів жорсткого диска",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 350 грн."
+    },
+    {
+        "name_computer": "Відновлення даних (10Гб)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Відновлення залитої материнської плати",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 550 грн."
+    },
+    {
+        "name_computer": "Підключення (МФУ, сканера, камери, тощо)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 350 грн."
+    },
+    {
+        "name_computer": "Розбиття жорсткого диска на розділи",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 250 грн."
+    },
+    {
+        "name_computer": "Реббоулінг чіпа",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 850 грн."
+    },
+    {
+        "name_computer": "Ремонт блоку живлення (без вартості запчастин)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 350 грн."
+    },
+    {
+        "name_computer": "Ремонт відеочіпа (північного та південного мосту)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 900 грн."
+    },
+    {
+        "name_computer": "Ремонт контролера",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 550 грн."
+    },
+    {
+        "name_computer": "Ремонт ланцюгів живлення, вторинних джерел",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 600 грн."
+    },
+    {
+        "name_computer": "Збірка системного блоку на замовлення (без вартості запчастини)",        
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 600 грн."
+    },
+    {
+        "name_computer": "Зняття забутого пароля",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 250 грн."
+    },
+    {
+        "name_computer": "Збереження даних (10Гб)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 250 грн."
+    },
+    {
+        "name_computer": "Терміновий ремонт (до кінця дня)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 400 грн."
+    },
+    {
+        "name_computer": "Встановлення антивірусу (ліцензія)",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Встановлення драйверів",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Встановлення операційної системи",        
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Встановлення програм",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 300 грн."
+    },
+    {
+        "name_computer": "Чищення системи від вірусів",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 350 грн."
+    },
+    {
+        "name_computer": "Чищення від пилу, заміна термопасти, мастило системи охолодження",
+        "guarantee_computer": "3 місяці",
+        "price_computer": "від 370 грн."
+    }
+]

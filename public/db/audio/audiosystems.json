@@ -1,0 +1,32 @@
+[ 
+    {
+        "name_audio": "Діагностика з подальшим ремонтом",
+        "guarantee_audio": "",
+        "price_audio": "безкоштовно"
+    },
+    {
+        "name_audio": "Діагностика несправності. Без ремонту",
+        "guarantee_audio": "",
+        "price_audio": "200 грн."
+    },
+    {
+        "name_audio": "Ремонт активної акустики 2.0",
+        "guarantee_audio": "3 місяці",
+        "price_audio": "від 300 грн."
+    },    
+    {
+        "name_audio": "Ремонт активної акустики 2.1",
+        "guarantee_audio": "3 місяці",
+        "price_audio": "від 500 грн."
+    },    
+    {
+        "name_audio": "Ремонт активної акустики 5.1",
+        "guarantee_audio": "3 місяці",
+        "price_audio": "від 800 грн."
+    },    
+    {
+        "name_audio": "Ремонт сабвуфера",
+        "guarantee_audio": "3 місяці",
+        "price_audio": "від 500 грн."
+    }
+]

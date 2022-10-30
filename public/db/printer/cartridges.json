@@ -1,0 +1,37 @@
+[  
+    {
+        "name_cartridge": "Діагностика з подальшим ремонтом",
+        "guarantee_cartridge": "",
+        "price_cartridge": "безкоштовно"
+    },
+    {
+        "name_cartridge": "Діагностика несправності. Без ремонту",
+        "guarantee_cartridge": "",
+        "price_cartridge": "300 грн."
+    },
+    {
+        "name_cartridge": "Заправка та ремонт лазерних картриджів",
+        "guarantee_cartridge": "3 місяці",
+        "price_cartridge": "уточнюйте у менеджера**"
+    },      
+    {
+        "name_cartridge": "Заправка лазерного картриджа",
+        "guarantee_cartridge": "3 місяці",
+        "price_cartridge": "від 200 грн."
+    },      
+    {
+        "name_cartridge": "Заправлення струминного картриджа",
+        "guarantee_cartridge": "3 місяці",
+        "price_cartridge": "від 100 грн."
+    },    
+    {
+        "name_cartridge": "Ремонт картриджа (заміна деталей у картриджі)",
+        "guarantee_cartridge": "3 місяці",
+        "price_cartridge": "від 190 грн."
+    },    
+    {
+        "name_cartridge": "Заміна чіпа в картриджі",
+        "guarantee_cartridge": "3 місяці",
+        "price_cartridge": "від 410 грн."
+    }
+]
