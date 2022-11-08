@@ -24,7 +24,7 @@
 }
 
 .block .block__text span {
-    max-width: 1140px;
+    max-width: 1200px;
     text-align: left;
     display: inline;
     background-color: #172130ad;
@@ -45,16 +45,17 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+
+    span, p { 
+        font-size: 16px !important;
+    }
 
     .block {
         padding: 60px 10px;
     }
 
-    .block .block__text .nameText,
-    .containerBox .main .nameText,
-    .servBox .main .nameText,
-    .box .box__main .nameText {
+    .block .block__text .nameText {
         max-width: 480px;
         text-align: center;
         padding: 0;

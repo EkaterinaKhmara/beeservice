@@ -27,7 +27,7 @@ p {
 }
 
 .App .nameText {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: left;
   padding: 0 0 0 20px;
@@ -55,6 +55,7 @@ p {
   animation-iteration-count: infinite;
   display: none;
   cursor: pointer;
+  z-index: 222;
 }
 
 .btn_up h3 {
@@ -90,4 +91,14 @@ p {
     top: 79%;
     box-shadow: 0 0 4px black;
   }
+}
+
+
+
+@media (max-width: 500px) {
+
+  .App h2 {
+    font-size: 40px;
+  }
+  
 }

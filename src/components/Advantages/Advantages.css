@@ -19,12 +19,13 @@
 }
 
 .containerBox .main .main__block {
-    max-width: 1140px;
+    max-width: 1200px;
     height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin: 0 30px;
 }
 
 .containerBox .main .main__block .block__one,
@@ -69,7 +70,11 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+
+    span, p { 
+        font-size: 16px !important;
+    }
 
     .containerBox {
         padding: 60px 10px;
@@ -82,7 +87,7 @@
     }
 
     .containerBox .main .main__block {
-        margin: 30px;
+        margin: 15px;
     }
 
     .containerBox .main .main__block .block__one,

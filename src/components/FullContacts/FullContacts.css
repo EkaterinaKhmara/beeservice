@@ -18,9 +18,10 @@
 }
 
 .box .box__main .main__block {
-    width: 95%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
+    margin: 0 30px;
 }
 
 .box .box__main .nameText {
@@ -36,7 +37,9 @@
     line-height: 1.7;
 }
 
-.box .box__main .main__block .block__cont .addressCont, .box .box__main .main__block .block__cont .contactsCont, .box .box__main .main__block .block__cont .scheduleCont {
+.box .box__main .main__block .block__cont .addressCont,
+.box .box__main .main__block .block__cont .contactsCont,
+.box .box__main .main__block .block__cont .scheduleCont {
     width: 27%;
     display: flex;
     flex-direction: column;
@@ -50,12 +53,12 @@
     gap: 20px;
 }
 
-.box .box__main .main__block .block__cont .addressCont .email a{
+.box .box__main .main__block .block__cont .addressCont .email a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.box .box__main .main__block .block__cont .addressCont .email a:hover{
+.box .box__main .main__block .block__cont .addressCont .email a:hover {
     color: #ffb000;
 }
 
@@ -66,7 +69,7 @@
 
 .box .box__main .main__block .block__cont .scheduleCont .socialMedia {
     display: flex;
-    gap: 25px; 
+    gap: 20px;
     margin: 20px 0 0;
 }
 
@@ -91,7 +94,8 @@
     color: rgb(122, 164, 255);
 }
 
-.box .box__main .main__block .block__cont .cont__cont, .box__main .main__block .block__cont .cont__sched {
+.box .box__main .main__block .block__cont .cont__cont,
+.box__main .main__block .block__cont .cont__sched {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -111,25 +115,68 @@
     font-size: 20px;
 }
 
-
 .box .box__main .block__map {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
 }
 
 .box .box__main .block__map iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 
-/* .myIframe {
-    max-width: 1100px;
-    height: 450px; 
-    border: 0;
-} */
+
+@media (max-width: 500px) {
+
+    span,
+    p {
+        font-size: 16px !important;
+    }
+
+    .box {
+        padding: 60px 10px;
+    }
+
+    .box .box__main .nameText {
+        max-width: 480px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .box .box__main .main__block {
+        margin: 0 10px;
+    }
+
+    .box .box__main .main__block .block__cont {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .box .box__main .main__block .block__cont .addressCont,
+    .box .box__main .main__block .block__cont .contactsCont,
+    .box .box__main .main__block .block__cont .scheduleCont {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .box .box__main .main__block .block__cont .scheduleCont .socialMedia {
+        align-items: center;
+    }
+
+    .box .box__main .block__map {
+        height: 300px;
+        max-width: 480px;
+    }
+
+    .box .box__main .textCont {
+        margin: 45px 20px 0;
+    }
+
+
+}

@@ -98,7 +98,11 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+
+    span, p { 
+        font-size: 16px !important;
+    }
 
     .header .header__box {
         flex-direction: column;
