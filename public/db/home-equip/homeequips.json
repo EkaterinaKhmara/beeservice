@@ -1,12 +1,12 @@
 [
     {
         "name_homeequip": "Діагностика з подальшим ремонтом",
-        "guarantee_homeequip": "",
+        "guarantee_homeequip": "—",
         "price_homeequip": "безкоштовно"
     },
     {
         "name_homeequip": "Діагностика несправності. Без ремонту",
-        "guarantee_homeequip": "",
+        "guarantee_homeequip": "—",
         "price_homeequip": "300 грн."
     },
     {

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from "react-router-dom";
 import '../priceAllStyles.css';
 import ServiceMenu from '../../../components/ServiceMenu/ServiceMenu';
@@ -8,10 +8,33 @@ import { Carousel } from 'react-bootstrap';
 
 export default function Computer({ computer, laptop, pageName }) {
 
+  // function getWindowSize() {
+  //   const {innerWidth} = window;
+  //   return {innerWidth};
+  // }
+
+
+  // const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  // useEffect(() => {
+  //   function handleWindowResize() {
+  //     setWindowSize(getWindowSize());
+  //   }
+
+  //   window.addEventListener('resize', handleWindowResize);
+
+  //   console.log(windowSize.innerWidth);
+
+  //   return () => {
+  //     window.removeEventListener('resize', handleWindowResize);
+  //   };
+
+  // }, []);
+
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 300);
   }, [pathname]);
 
   useEffect(() => {

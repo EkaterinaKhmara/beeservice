@@ -113,3 +113,147 @@
     width: 10%;
     text-align: right;
 }
+
+
+
+
+
+@media (max-width: 400px) {
+
+    .infoBox {
+        width: 100%;
+        gap: 0;
+        padding: 30px 15px;
+    }
+
+    .infoBox .Carousel {
+        display: none;
+    }
+
+    .infoBox .text {
+        width: 100%;
+    }
+
+    .nameTable,
+    .prodTable {
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .prodList .name,
+    .prodList .guarantee,
+    .prodList .price {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle .topicName {
+        font-size: 18px !important;
+    }
+
+    .prodList .text {
+        width: 100%;
+    }
+
+
+}
+
+
+@media (min-width: 401px) and (max-width: 550px) {
+    .infoBox {
+        width: 100%;
+        gap: 0;
+        padding: 30px 15px;
+    }
+
+    .infoBox .Carousel {
+        display: none;
+    }
+
+    .infoBox .text {
+        width: 100%;
+    }
+
+    .nameTable,
+    .prodTable {
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .prodList .name,
+    .prodList .guarantee,
+    .prodList .price {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle .topicName {
+        font-size: 18px !important;
+    }
+
+    .prodList .text {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 551px) and (max-width: 741px) {
+    .infoBox {
+        width: 100%;
+        gap: 0;
+        padding: 30px 15px;
+    }
+
+    .infoBox .Carousel {
+        display: none;
+    }
+
+    .infoBox .text {
+        width: 100%;
+    }
+
+    .nameTable,
+    .prodTable {
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .prodList .name,
+    .prodList .guarantee,
+    .prodList .price {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nameTitle .topicName {
+        font-size: 18px !important;
+    }
+
+    .prodList .text {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 742px) and (max-width: 1200px) {}

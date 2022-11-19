@@ -1,12 +1,12 @@
 [
     {
         "name_navi": "Діагностика з подальшим ремонтом",
-        "guarantee_navi": "",
+        "guarantee_navi": "—",
         "price_navi": "безкоштовно"
     },
     {
         "name_navi": "Діагностика несправності. Без ремонту",
-        "guarantee_navi": "",
+        "guarantee_navi": "—",
         "price_navi": "300 грн."
     },    
     {

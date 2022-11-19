@@ -11,7 +11,7 @@ export default function Tv({ tv, screen, pageName }) {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 300);
   }, [pathname]);
 
   useEffect(() => {
@@ -84,6 +84,11 @@ export default function Tv({ tv, screen, pageName }) {
             <p className='price'>{item.price_tv}</p>
           </div>
         })}
+        <div className='text'>
+          <p>**Ціна буде залежати від стану комплектуючого та проблеми, яку необхідно усунути.
+            Наш менеджер надасть більш детальну інформацію щодо ремонту
+            та подальших дій.</p>
+        </div>
       </div>
     </div>
   )

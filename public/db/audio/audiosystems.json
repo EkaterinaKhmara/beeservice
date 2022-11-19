@@ -1,12 +1,12 @@
 [ 
     {
         "name_audio": "Діагностика з подальшим ремонтом",
-        "guarantee_audio": "",
+        "guarantee_audio": "—",
         "price_audio": "безкоштовно"
     },
     {
         "name_audio": "Діагностика несправності. Без ремонту",
-        "guarantee_audio": "",
+        "guarantee_audio": "—",
         "price_audio": "200 грн."
     },
     {

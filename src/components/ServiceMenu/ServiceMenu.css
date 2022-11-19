@@ -18,3 +18,76 @@
     border: 1px solid rgb(235 235 235);
     height: 68px;
 }
+
+
+
+
+@media (max-width: 500px) {
+
+    .servMenu {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servMenu .vertLine {
+        height: 0;
+        border: none;
+    }
+
+    .servMenu .servLink {
+        background: none;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+    .servMenu {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servMenu .vertLine {
+        height: 0;
+        border: none;
+    }
+
+    .servMenu .servLink {
+        background: none;
+    }
+
+}
+
+
+@media (min-width: 651px) and (max-width: 741px) {
+
+    .servMenu {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servMenu .vertLine {
+        height: 0;
+        border: none;
+    }
+
+    .servMenu .servLink {
+        background: none;
+    }
+
+}
+
+
+@media (min-width: 742px) and (max-width: 1200px) {
+
+
+}
+
+
+
+
+

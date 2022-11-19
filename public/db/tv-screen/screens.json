@@ -1,12 +1,12 @@
 [
     {
         "name_screen": "Діагностика з подальшим ремонтом",
-        "guarantee_screen": "",
+        "guarantee_screen": "—",
         "price_screen": "безкоштовно"
     },
     {
         "name_screen": "Діагностика несправності. Без ремонту",
-        "guarantee_screen": "",
+        "guarantee_screen": "—",
         "price_screen": "300 грн."
     },
     {

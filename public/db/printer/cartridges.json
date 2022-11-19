@@ -1,12 +1,12 @@
 [  
     {
         "name_cartridge": "Діагностика з подальшим ремонтом",
-        "guarantee_cartridge": "",
+        "guarantee_cartridge": "—",
         "price_cartridge": "безкоштовно"
     },
     {
         "name_cartridge": "Діагностика несправності. Без ремонту",
-        "guarantee_cartridge": "",
+        "guarantee_cartridge": "—",
         "price_cartridge": "300 грн."
     },
     {

@@ -1,12 +1,12 @@
 [
     {
         "name_book": "Діагностика з подальшим ремонтом",
-        "guarantee_book": "",
+        "guarantee_book": "—",
         "price_book": "безкоштовно"
     },
     {
         "name_book": "Діагностика несправності. Без ремонту",
-        "guarantee_book": "",
+        "guarantee_book": "—",
         "price_book": "300 грн."
     },
     {

@@ -1,14 +1,14 @@
 [ 
     {
         "name_printer": "Діагностика з подальшим ремонтом",
-        "problem_printer": "",
-        "guarantee_printer": "",
+        "problem_printer": "—",
+        "guarantee_printer": "—",
         "price_printer": "безкоштовно"
     },
     {
         "name_printer": "Діагностика несправності. Без ремонту",
-        "problem_printer": "",
-        "guarantee_printer": "",
+        "problem_printer": "—",
+        "guarantee_printer": "—",
         "price": "300 грн."
     },
     {

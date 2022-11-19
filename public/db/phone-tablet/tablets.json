@@ -1,12 +1,12 @@
 [
     {
         "name_tablet": "Діагностика з подальшим ремонтом",
-        "guarantee_tablet": "",
+        "guarantee_tablet": "—",
         "price_tablet": "безкоштовно"
     },
     {
         "name_tablet": "Діагностика несправності. Без ремонту",
-        "guarantee_tablet": "",
+        "guarantee_tablet": "—",
         "price_tablet": "300 грн."
     },
     {

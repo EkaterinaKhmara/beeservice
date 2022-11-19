@@ -12,7 +12,7 @@ export default function Phone({ phone, book, navi, tablet, pageName }) {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 300);
   }, [pathname]);
 
   useEffect(() => {
@@ -105,6 +105,11 @@ export default function Phone({ phone, book, navi, tablet, pageName }) {
             <p className='price'>{item.price_navi}</p>
           </div>
         })}
+        <div className='text'>
+          <p>**Ціна буде залежати від стану комплектуючого та проблеми, яку необхідно усунути.
+            Наш менеджер надасть більш детальну інформацію щодо ремонту
+            та подальших дій.</p>
+        </div>
       </div>
     </div>
   )

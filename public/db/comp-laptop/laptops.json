@@ -1,12 +1,12 @@
 [
     {
         "name_laptop": "Діагностика з подальшим ремонтом",
-        "guarantee_laptop": "",
+        "guarantee_laptop": "—",
         "price_laptop": "безкоштовно"
     },
     {
         "name_laptop": "Діагностика несправності. Без ремонту",
-        "guarantee_laptop": "",
+        "guarantee_laptop": "—",
         "price_laptop": "300 грн."
     },
     {
