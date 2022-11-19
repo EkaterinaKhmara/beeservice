@@ -238,10 +238,24 @@
 
 
 
+@media (max-width: 400px) {
+    
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        width: 60%;
+    }
+}
 
-@media (max-width: 500px) {
+@media (min-width: 401px) and (max-width: 500px) {
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        width: 50%;
+    }
+}
 
-    span, p { 
+
+@media (max-width: 501px) {
+
+    span,
+    p {
         font-size: 16px !important;
     }
 
@@ -275,5 +289,100 @@
         flex-wrap: wrap;
     }
 
+    .img_tel {
+        padding: 0;
+    }
+
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        width: 50%;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 502px) and (max-width: 650px) {
+
+    span,
+    p {
+        font-size: 16px !important;
+    }
+
+    .footer .allInfo {
+        flex-direction: column;
+    }
+
+    .footer .allInfo .allInfo__footerMenu,
+    .footer .allInfo .allInfo__contTels,
+    .footer .allInfo .allInfo__addressTime {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer .allInfo .allInfo__contTels .cont {
+        align-items: center;
+    }
+
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .addressSpan,
+    .scheduleSpan {
+        align-items: center;
+    }
+
+    .footer .bottom {
+        flex-wrap: wrap;
+    }
+
+    .img_tel {
+        padding: 0;
+    }
+
+}
+
+
+
+@media (min-width: 651px) and (max-width: 741px) {
+
+    .footer .allInfo .allInfo__footerMenu,
+    .footer .allInfo .allInfo__contTels,
+    .footer .allInfo .allInfo__addressTime {
+        padding: 0px 0 0 25px;
+    }
+
+    .footer .allInfo .allInfo__footerMenu {
+        width: 25%;
+    }
+
+    .footer .allInfo .allInfo__contTels,
+    .footer .allInfo .allInfo__addressTime {
+        width: 35%;
+    }
+
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 742px) and (max-width: 1000px) {
+
+    .footer .allInfo .allInfo__footerMenu,
+    .footer .allInfo .allInfo__contTels,
+    .footer .allInfo .allInfo__addressTime {
+        padding: 0px 0 0 30px;
+    }
+
+    .footer .allInfo .allInfo__contTels .btnRecall {
+        width: 100%;
+    }
 
 }

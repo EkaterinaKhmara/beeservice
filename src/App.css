@@ -102,3 +102,22 @@ p {
   }
   
 }
+
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+  .App h2 {
+    font-size: 45px;
+  }
+  
+}
+
+
+@media (min-width: 651px) and (max-width: 741px) { 
+
+  .App h2 {
+    font-size: 50px;
+  }
+
+}

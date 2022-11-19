@@ -1,3 +1,15 @@
 .logoPic {
     width: 65%;
 }
+
+
+
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+    .logoPic {
+        width: 40%;
+    }
+
+}

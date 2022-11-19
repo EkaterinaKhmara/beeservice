@@ -11,6 +11,7 @@ import HouseApp from './pages/Services/HouseApp/HouseApp';
 import Tv from './pages/Services/TV/Tv';
 import Audio from './pages/Services/Audio/Audio';
 import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
 
 
 
@@ -104,6 +105,10 @@ export default function App() {
 
   function clickBtnUp() {
     window.scrollTo(0, 0);
+    // const url = window.location.href;
+    // let y = url.split('/')[3];
+    // y = 'home';
+    // url.split('/')[3] = 'home';
   }
 
 
@@ -115,6 +120,7 @@ export default function App() {
       <Header />
       <HeadMenu />
       <Routes>
+        <Route path='*' element={<NotFound />} />
         <Route path='/' element={
           <Home />
         } />

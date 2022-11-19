@@ -45,14 +45,14 @@
     padding: 35px;
     box-shadow: 0 0 15px #7e7e7e;
     border-radius: 10px;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: left;
     background: white;
 }
 
-.containerBox .main .main__block .block__one .firstAdvant, 
+.containerBox .main .main__block .block__one .firstAdvant,
 .containerBox .main .main__block .block__two .thirdAdvant {
     margin: 0 35px 0 0;
 }
@@ -72,7 +72,8 @@
 
 @media (max-width: 500px) {
 
-    span, p { 
+    span,
+    p {
         font-size: 16px !important;
     }
 
@@ -97,7 +98,9 @@
     }
 
     .containerBox .main .main__block .block__one .firstAdvant,
-    .containerBox .main .main__block .block__two .thirdAdvant {
+    .containerBox .main .main__block .block__two .thirdAdvant,     
+    .containerBox .main .main__block .block__one .secondAdvant,
+    .containerBox .main .main__block .block__two .fourthAdvant {
         margin-bottom: 20px;
         margin-right: 0;
         flex-direction: column;
@@ -105,20 +108,111 @@
         gap: 20px;
     }
 
+    .servBox .main .main__block .block__box {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+    span,
+    p {
+        font-size: 16px !important;
+    }
+
+    .containerBox {
+        padding: 60px 10px;
+    }
+
+    .containerBox .main .nameText {
+        max-width: 650px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .containerBox .main .main__block {
+        margin: 15px;
+    }
+
+    .containerBox .main .main__block .block__one,
+    .containerBox .main .main__block .block__two {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .containerBox .main .main__block .block__one .firstAdvant,
+    .containerBox .main .main__block .block__two .thirdAdvant,     
     .containerBox .main .main__block .block__one .secondAdvant,
     .containerBox .main .main__block .block__two .fourthAdvant {
+        
         margin-bottom: 20px;
-        margin-left: 0;
+        margin-right: 0;
         flex-direction: column;
         text-align: center;
         gap: 20px;
     }
 
 
-    .servBox .main .main__block .block__box {
-        flex-direction: column;
+}
+
+
+
+@media (min-width: 651px) and (max-width: 741px) {
+
+    .containerBox {
+        padding: 60px 10px;
     }
 
+    .containerBox .main .nameText {
+        max-width: 741px;
+        text-align: center;
+        padding: 0;
+    }
 
+    .containerBox .main .main__block {
+        margin: 0 10px;
+    }
+
+    .containerBox .main .main__block .block__one .secondAdvant,
+    .containerBox .main .main__block .block__two .fourthAdvant,     
+    .containerBox .main .main__block .block__one .firstAdvant,
+    .containerBox .main .main__block .block__two .thirdAdvant  {
+        margin: 0;
+        padding: 15px;
+        gap: 40px;
+        margin: 0 20px;
+    }
 
 }
+
+
+
+@media (min-width: 742px) and (max-width: 1200px) {
+
+    .containerBox {
+        padding: 60px 10px;
+    }
+    
+    .containerBox .main .nameText {
+        max-width: 1200px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .containerBox .main .main__block .block__one .secondAdvant,
+    .containerBox .main .main__block .block__two .fourthAdvant,     
+    .containerBox .main .main__block .block__one .firstAdvant,
+    .containerBox .main .main__block .block__two .thirdAdvant  {
+        margin: 0;
+        padding: 15px;
+        gap: 40px;
+        margin: 0 20px;
+    }
+
+ }

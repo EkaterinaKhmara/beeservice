@@ -25,7 +25,7 @@ export default function FullContacts({ children, ...props }) {
               <p>(Солом'янський район)</p>
               <div className='email'>
                 <FontAwesomeIcon icon={faEnvelope} className='mail' />
-                <a href="support@beeservice.com">support@beeservice.com</a>
+                <a href="support@beeservice.com">bee@service.com</a>
                 {/* <p>support@beeservice.com</p> */}
               </div>
             </div>
@@ -34,10 +34,10 @@ export default function FullContacts({ children, ...props }) {
               <Contacts className='cont__cont' />
             </div>
             <div className='scheduleCont'>
-              <p className='pText'>Ми працюємо для вас кожен день: </p>
+              <p className='pText'>Ми працюємо кожен день: </p>
               <Schedule className='cont__sched' />
               <div className='socialMedia'>
-                <p>Наші соціальні мережі: </p>
+                <p>Cоціальні мережі: </p>
                 <a href="/">
                   <FontAwesomeIcon icon={faInstagram} className='media insta' />
                 </a>

@@ -32,7 +32,7 @@
     width: 100%;
     height: 100%;
     padding: 15px;
-    background: #FFEFBA;
+    background: #e8e8e8;
     transform: translateX(-100%);
     transition: transform 0.2s;
 }
@@ -44,7 +44,7 @@
     width: 100%;
     height: 100%;
     padding: 15px;
-    background: #FFEFBA;
+    background: #e8e8e8;
     transition: transform 0.2s;
     transform: translateX(0);
     z-index: 111;
@@ -71,7 +71,7 @@
 
 .headMenu .headMenu__box .aсtiveMenu .mobMenu {
     text-align: left;
-    margin: 30px;
+    margin: 0 15px;
 }
 
 .headMenu .headMenu__box .aсtiveMenu .mobMenu .tab {
@@ -79,21 +79,22 @@
     font-size: 20px;
 }
 
-.headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab{
+.headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab {
     margin: 10px 0 10px 30px !important;
     font-size: 17px;
+}
+
+.headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab li {
+    list-style: initial;
+}
+
+.headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab .linkMobMenu {
+    text-decoration: underline;
 }
 
 .headMenu .headMenu__box .aсtiveMenu .mobMenu a {
     line-height: 2.0;
 }
-
-
-
-
-
-
-
 
 
 
@@ -346,9 +347,78 @@
     .headMenu .headMenu__box .aсtiveMenu .mobMenu .tab {
         font-size: 24px;
     }
-    
-    .headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab{
+
+    .headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab {
         font-size: 20px;
+    }
+
+}
+
+
+
+
+@media (min-width: 501px) and (max-width: 650px) {
+
+    span,
+    p {
+        font-size: 16px !important;
+    }
+
+    .headMenu .headMenu__box {
+        padding: 20px 0;
+    }
+
+    .headMenu .headMenu__box .box__menu {
+        display: none;
+    }
+
+    .headMenu .headMenu__box .menuBtn {
+        display: block;
+    }
+
+    .headMenu .headMenu__box .box__Binotel {
+        width: 55%;
+    }
+
+    .headMenu .headMenu__box .box__Binotel .box__recall {
+        width: 72%;
+        font-size: 15px;
+    }
+
+    .headMenu .headMenu__box .box__Binotel {
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .headMenu .headMenu__box .aсtiveMenu .mobMenu .tab {
+        font-size: 24px;
+    }
+
+    .headMenu .headMenu__box .aсtiveMenu .mobMenu .toTab {
+        font-size: 20px;
+    }
+
+    .headMenu .headMenu__box .aсtiveMenu .mobMenu {
+        margin: 0 0 0 35px;
+    }
+
+}
+
+
+
+
+@media (min-width: 651px) and (max-width: 741px) { 
+
+    .headMenu .headMenu__box .box__Binotel .box__recall {
+        width: 85%;
+    }
+
+}
+
+@media (min-width: 742px) and (max-width: 900px) {
+
+    .headMenu .headMenu__box .box__Binotel .box__recall {
+        width: 85%;
     }
 
 }

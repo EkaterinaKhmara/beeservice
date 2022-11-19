@@ -31,15 +31,6 @@ export default function Footer({children, ...props}) {
             </li>
             </ul>
           </div>
-          {/* <div className='box__privacy'> */}
-            {/* <Routes> */}
-            {/* <a href="/">Політика конфеденційності</a> */}
-            {/* <Link name="/privacy-policy" to="/privacy-policy" >Політика конфеденційності</Link> */}
-            {/* <Route path='/privacy-policy' element={
-              <PrivacyPolicy>Політика конфеденційності</PrivacyPolicy>
-            } />
-            </Routes> */}
-          {/* </div> */}
         </div>
 
         <div className='allInfo__contTels'>
